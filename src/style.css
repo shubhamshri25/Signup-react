@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #b1d9db;
+  display: flex;
+  overflow: hidden;
+}
+
+.container .left {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  padding: 20px;
+}
+.left .desc {
+  margin-top: 40px;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.left img {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  width: 110%;
+  transform: rotate(-7.75deg);
+}
+
+.container .right {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  border-radius: 36px 0 0 36px;
+  -webkit-border-radius: 36px 0 0 36px;
+  -moz-border-radius: 36px 0 0 36px;
+  -ms-border-radius: 36px 0 0 36px;
+  -o-border-radius: 36px 0 0 36px;
+}
+
+.right .wrapper {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icons {
+  width: 25px;
+  height: 25px;
+}
+
+h1 {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.social {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+img span {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.social a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 188px;
+  height: 45px;
+  border-radius: 8px;
+  padding: 0 10px;
+  border: 1px solid #e6e6e6;
+  color: #5a5a5a;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.or {
+  text-align: center;
+  color: #909090;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+input {
+  margin: 0.8rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 9px;
+  background: #7cd2d7;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#err-message {
+  text-align: center;
+}
+.error-msg {
+  color: #ff4f4f;
+}
+.success-msg {
+  color: #7ecd71;
+}
